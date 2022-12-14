@@ -1,0 +1,195 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*header*/
+header{
+    height:60px;
+    /* border:5px solid red; */
+    background-color:#3b2632
+}
+#brand{
+    float:left;
+    color:white;
+    font-size:30px;
+    margin-top:1%;
+    margin-left:1%
+}
+#social button{
+    align-items: center;
+    float:right;
+    margin: 1%;
+    padding: 5px;
+    font-size:15px;
+    border: 2px solid black;
+    border-radius: 4px;
+   
+}
+#social button:hover{
+    background-color: aquamarine;
+    font-size: 20px ;
+    color:#bd3c85;
+   
+} 
+.socialLogo{
+    height:50px;
+    width:50px;
+}
+
+/*Search*/
+#content{
+    width:85%;
+    margin-left:7.5%;
+    margin-top: 3%;;
+    display: inline-block
+}
+.filter{
+    height:auto;
+    width:20%;
+    border:3px solid green;
+    float:left;
+}
+
+.cusradio, .cosradio{
+    margin: 10px;
+    display: block;
+}
+.filter h1, h3{
+    margin: 1%;
+    text-align: center;
+}
+
+.prodContent{
+    height:850px;
+    width:70%;
+    float:left;
+    margin-left:7%;
+    border:3px solid #c1df6d;
+}
+.foodborder {
+    border: 5px solid black;
+    height: 40%;
+    margin: 5%;
+    background-color: #eca5d5;
+    box-shadow: 10px 10px 10px 20px #6ebe81;
+}
+.foodcontent1 >img {
+    position: absolute;
+    height: 43%;
+    width: 23%;
+    float: left;
+    /* margin: 3%; */
+    padding: 0%;
+    animation: dance 10s;
+}
+@keyframes dance{
+    0% {transform:rotate(-5deg)}
+    25% {transform:rotate(0deg)}
+    50% {transform:rotate(5deg)}
+    75% {transform:rotate(0deg)}
+    100% {transform:rotate(-5deg)}
+}
+
+.foodcontent2 >h1{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    word-spacing: 2pt;
+    color: rgb(130, 42, 133);
+    display: block;
+    margin-top: 5%;
+    margin-left: 45%;
+    
+}
+.foodcontent2 >h2{
+    font-size: 35px;
+    word-spacing: 2pt;
+    color: rgb(130, 42, 133);
+    display: block;
+    margin-top: 4%;
+    margin-left: 45%;
+    /* animation: dance 10s infinite; */
+}
+.foodcontent2 >h3{
+    width: 25%;
+    float: left;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: #7e53af;
+    font-size: 25px;
+    word-spacing: 2pt;
+    display: block;
+    margin-top: 1%;
+    margin-left: 45%;
+    padding: 1%;
+    /* animation: dance 10s infinite; */
+}
+
+
+/*Footer*/
+footer{
+    /* height:220px; */
+    /* border:5px solid purple; */
+    margin-top: 2%;
+    background-color:#3b2632 ;
+    color:white;
+    text-align: center;
+}
+
+.footText{
+    font-size:20px
+}
+
+.footDiv{
+    display:inline-block;
+    width:32%;
+    border-right:2px solid white
+}
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+@media screen and (max-width:1600px) {
+    body{
+        background-color:#d9b6ca
+    }
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color:#deddb7
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color:#b8e2b8
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color:#badfe5
+   
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color:#beb9e5
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color:#e9b6bf
+    }
+     }
+    .tileContainer{
+        width:45%;
+    }
+}
